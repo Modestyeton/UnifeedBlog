@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 58%;
+    padding-top: 30px;
+    margin-bottom: 60px;
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    padding-top: 10px;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.active{
+    background-color: orange;
+    font-weight: 600;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+/* second section */
+
+.secondSection{
+    width: 100%;
+}
+
+.Main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 90px;
+    margin-bottom: 80px;
+}
+
+.secondSection .Main .first{
+    width: 40%;
+    margin: auto;
+}
+
+.first img{
+    width: 100%;
+}
+
+.Main .second{
+    width: 60%;
+    margin: auto;
+}
+
+.second h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    }
+
+.second p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.second .imgText{
+    display: flex;
+    width: 40%;
+}
+
+.imgText .avatar{
+    width: 30%;
+    margin: auto;
+}
+
+.avatar img{
+    width: 100%;
+    margin: auto;
+}
+
+.imgText .text{
+    padding-top: 20px;
+}
+
+/* third section */
+.thirdSection{
+    width: 100%;
+}
+
+.thirdSection .wrap{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+
+.one,
+.two,
+.three{
+    width: 35%;
+    margin: auto;
+}
+
+.one img,
+.two img,
+.three img{
+    width: 100%;
+    margin: auto;
+}
+
+.one h1,
+.two h1,
+.three h1{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.one p,
+.two p,
+.three p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.one .imgText,
+.two .imgText,
+.three .imgText{
+    display: flex;
+    width: 60%;
+}
+
+.imgText .text p{
+    font-size: 15px;
+}
+
+/* footer section */
+footer{
+    width: 100%;
+    margin: auto;
+}
+
+.footwrap{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 60%;
+    margin-bottom: 20px;
+}
+
+
+
+/* MEDIA QUERY */
+/* @media screen and (max-width: 420px){
+ 
+    header{
+        width: 100%;
+        margin: auto;
+    }
+    nav{
+        width: 95%;
+        margin: auto;
+        gap: 30%;
+        }    
+
+    .links ul{
+        gap: 10px;
+        font-size: 15px;
+    }
+   
+} */
+
+    @media screen and (max-width: 400px){
+        .links ul{
+            display: none;
+        }
+        .Main{
+            flex-direction: column;
+            gap: 50px;
+        }
+        .first, .second{
+            width: auto;
+        }
+        .first{
+            background-color: red;
+        }
+        .first img{
+            width: 100px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+        /* .secondSection,
+        .thirdSection{
+          width: 100%;
+          margin: auto;
+        }  
+      
+        .Main,
+        .thirdSection .wrap{
+          width: 95%;
+          margin: auto;
+            }
+          
+            .Main .first,
+            .Main.second,
+            .wrap .one,
+            .wrap .two,
+            .wrap .three{
+              width: 45%;
+            }
+      
+            .first img,
+            .one img,
+            .two img,
+            .three img{
+              width: 100%; 
+            }
+      
+            .second p, h1{
+              width: 45%;
+            } */
+      }
